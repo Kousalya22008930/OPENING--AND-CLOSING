@@ -29,7 +29,7 @@ Show the original grayscale image, along with the results of the opening and clo
 ## Program:
 ```
 Developed By : KOUSALYA A.
-Reference Number: 212222230068
+Register Number: 212222230068
 ```
 # Import the necessary packages
 ```python
