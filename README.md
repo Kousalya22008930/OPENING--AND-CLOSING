@@ -19,8 +19,8 @@ Apply an edge detection technique to identify the prominent edges in the graysca
 Define a kernel (structuring element) for use in morphological operations, typically a matrix of ones.
 
 ### Step-6:Morphological Operations:
-Perform morphological operations:
-Opening: Remove small objects from the edges to clean up the image.
+Perform morphological operations:<br>
+Opening: Remove small objects from the edges to clean up the image.<br>
 Closing: Fill small holes in the detected edges to enhance the structure.
 
 ### Step-7:Display Results:
