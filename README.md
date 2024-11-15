@@ -31,13 +31,13 @@ Show the original grayscale image, along with the results of the opening and clo
 Developed By : KOUSALYA A.
 Register Number: 212222230068
 ```
-# Import the necessary packages
+### Import the necessary packages
 ```python
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 ```
-# Create the structuring element
+### Create the structuring element
 ```python
 image = cv2.imread("FISH_1.jpg")  
 kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
@@ -49,7 +49,7 @@ plt.axis("off")
 ```
 ![image](https://github.com/user-attachments/assets/10b7a6b0-b19e-4c77-9f21-bb782585deed)
 
-# Use Opening operation
+### Use Opening operation
 ```python
 opening_image = cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)
 opening_image_rgb = cv2.cvtColor(opening_image, cv2.COLOR_BGR2RGB)
@@ -60,7 +60,7 @@ plt.axis("off")
 ![image](https://github.com/user-attachments/assets/3a7cdaf8-4676-4e96-8e70-980dd580a311)
 
 
-# Use Closing Operation
+### Use Closing Operation
 ```python
 closing_image = cv2.morphologyEx(image, cv2.MORPH_CLOSE, kernel)
 closing_image_rgb = cv2.cvtColor(closing_image, cv2.COLOR_BGR2RGB)
